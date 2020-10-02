@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 11
+    },
+    "rules": {
+      "no-console": "off",
+      "no-restricted-syntax": [
+          "warn",
+          {
+              "selector": "CallExpression[callee.object.name='console'][callee.property.name!=/^(log|warn|error|info|trace)$/]",
+              "message": "Unexpected property on console object was called"
+          }
+      ]
+  }
+}
+
