@@ -1,4 +1,4 @@
-# node-xsltproc
+# Wrapper-XSLT-PROC
 
 [![Build Status](https://travis-ci.com/sambacha/xsltproc.svg?branch=master)](https://travis-ci.com/sambacha/xsltproc)
 
